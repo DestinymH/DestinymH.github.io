@@ -1,0 +1,547 @@
+/* -----------------------
+Base styles
+------------------------*/
+
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background: linear-gradient(#BCBCA7, #FF91DA, #FFC2FF);
+	font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	border: 15px solid #FF8566;
+	border-top: none;
+	border-bottom: none;
+	
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	margin: 0 0 .5em;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+h1 { font-size: 2.25em; } /* 36px */
+h2 { font-size: 1.75em; } /* 28px */
+h3 { font-size: 1.375em; } /* 22px */
+h4 { font-size: 1.125em; } /* 18px */
+h5 { font-size: 1em; } /* 16px */
+h6 { font-size: .875em; } /* 14px */
+
+p
+{
+	margin: 0 0 1.5em;
+	line-height: 1.5;
+}
+
+blockquote
+{
+	padding: 1em 2em;
+	margin: 0 0 2em;
+	border-left: 5px solid #eee;
+}
+
+hr
+{
+	height: 0;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	border: 0;
+	
+}
+
+table
+{
+	background-color: transparent;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border-top: 1px solid #ddd;
+}
+
+th, td
+{
+	padding: .5em 1em;
+	vertical-align: top;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+a:link { color: royalblue; }
+a:visited { color: purple; }
+a:focus { color: black; }
+a:hover { color: green; }
+a:active { color: red; }
+
+
+/* -----------------------
+Gallery
+------------------------*/
+
+
+
+/* -----------------------
+Layout styles
+------------------------*/
+#about {
+	border-bottom: 3px solid #E62E00;
+}
+
+.container
+{
+	max-width: 50em;
+	margin: 0 auto;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 25px;
+	
+}
+.main-header-fonts{
+	font-family: 'Rock Salt', cursive;
+	font-size: 25px;
+}
+
+.hobbies {
+	background: #002E72;
+	width: 3.8em;
+	border-radius: 20px;
+	
+	
+}
+
+.back-hobbies {
+	background: #6666FF;
+	border-radius: 30px;
+	color: white;
+	border: 2px solid #FF3300;
+	text-align: center;
+	width: 360px;
+	position: relative;
+	bottom: 200px;
+}
+
+.hobbies-title {
+	background:#005CE6;
+	border-radius: 23px;
+	width: 220px;
+	
+	
+}
+
+.favorites {
+	background: #6666FF;
+	border-radius: 30px;
+	text-align: center;
+	border: 2px solid #FF3300;
+	list-style: none;
+	color: white;
+	width: 360px;
+	position: relative;
+	bottom: 480px;
+}
+
+.hobby {	
+	position: relative;
+	bottom: 282px;
+	
+}
+
+.favorites-background {
+	background: #005CE6;
+	border-radius: 23px;
+	width: 260px;
+}
+
+
+
+.header
+{
+	color: #FFFFFF;
+	background: #005CE6;
+	padding: 0.7em 1.25em;
+	font-family: 'Fredericka the Great', cursive;
+	text-align: center;
+	font-size: 30px;
+	border-top: 15px solid #FF8566;
+	border-bottom: 15px solid #FF8566;
+}
+
+.header-heading {
+	margin: 0; 
+	font-family:'Fredericka the Great', cursive;
+}
+
+.nav-bar
+{
+	background: #002E72;
+	padding: 0;
+	font-family: 'Amatic SC', cursive;
+	text-align: right;
+	border-bottom: 9px solid #FF8566;
+}
+
+.content
+{
+	padding: 1em 1.25em;
+	background: linear-gradient(#FF9999, #FF944D, #FF9F5F);
+}
+
+.footer
+{
+	color: #fff;
+	background: #000;
+	padding: 1em 1.25em;
+}
+/* -----------------------
+About page photo
+------------------------*/
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(3.7); border: 3px solid blue; right: 100px}
+html.grow .btn1 button:hover:not([enabled="enabled"]) {
+
+/* -----------------------
+Photography
+------------------------*/
+
+#camera {
+	list-style: none;
+	border: 2px solid #002E72;
+}
+
+#cameralist {
+	list-style: none;
+}
+
+.box:active{
+	width: 250px;
+	height: 425px;
+	margin-top: -18px;
+	box-shadow: 0 0 50px black;
+}
+
+
+/* -----------------------
+Photos for the About page
+------------------------*/
+
+.photos {
+	border: 2px solid #0033CC;
+	overflow: hidden;
+	
+}
+
+.photo-border {
+	
+	padding: 10px;
+	text-align: right;
+	overflow: hidden;
+}
+
+.line-height {
+	position: relative;
+	right: 630px;
+	bottom: 200px;
+	overflow: hidden;
+}
+.other-photos {
+	position: relative;
+	left: 630px;
+	top: 90.8px;
+
+}
+
+.main-header-fonts {
+	text-align: relative;
+	left: 700px;
+}
+/* -----------------------
+reading.html
+------------------------*/
+#books {
+	color: white;
+}
+/* -----------------------
+photography.html
+------------------------*/
+element.style {
+	
+}
+div {
+	display: block;
+}
+
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: grey;
+}
+
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+
+td {
+	text-align: center;
+}
+
+td, th {
+	display: table-cell;
+	vertical-align: inherit;
+}
+
+a, a:link, a:visited, a:active {
+	color: rgb(102, 0, 0);
+	text-decoration: none;
+}
+
+img {
+	border-style: solid;
+	border-color: rgb(0, 0, 0);
+	border-width: 0px;
+}
+
+h1 {
+		margin-bottom: 1em;
+		margin-left: -10px;
+		margin-right: 0px;
+		padding: 20px;
+		width: 98%;
+		display: block;
+		color: white;
+		font-size: 30px;
+		font-weight: bold;
+		letter-spacing: 4px;
+		text-align: center;
+		height: 21px;
+		position: relative;
+		font-family:'Fredericka the Great', cursive;
+	}
+	h2 {
+		border: rgb(0, 51, 204) 2px solid;
+		border-left: 1px none;
+		border-right: 1px none;
+		
+		margin-bottom: 1em;
+		margin-left: -10px;
+		margin-right: 0px;
+		padding: 20px;
+		width: 98%;
+		display: block;
+		color:  white;
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 4px;
+		text-align: right;
+		height: 21px;
+		position: relative;
+	}
+	h2:first-letter {
+		
+		font-weight: bold;
+		font-size: 24pt;
+	}
+	a, a:link,a:visited,a:active { 
+		color: rgb(102, 0, 0);
+		text-decoration: none; 
+	} 
+	a:hover {
+		color: rgb(255, 0, 0);
+		text-decoration: none;
+	}
+	body {
+		margin-bottom: 20px;
+		margin-top: 0px;
+		color: rgb(102, 0, 0);
+		background-image: url("background.jpg"); background-repeat: repeat;
+	}
+	td {
+		text-align: center;
+	}
+	img {
+		border-style: solid;
+		border-color: rgb(0,0,0);
+		border-width: 0px;
+	}
+	table.center {margin-left:auto; margin-right:auto;}
+	#httphotos {
+		position: absolute;
+		right: 0px;
+		bottom: 20px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#httphotos img {
+		border: 0px;
+	}
+
+
+
+/* -----------------------
+Nav
+------------------------*/
+
+.nav
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav li
+{
+	display: inline;
+	margin: 0;
+}
+
+.nav a
+{
+	display: block;
+	padding: .7em 1.25em;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid gray;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+}
+
+.nav a:link { color: white; }
+.nav a:visited { color: white; }
+
+.nav a:focus
+{
+	color: black;
+	background-color: white;
+}
+
+.nav a:hover
+{
+	color: #FF944D;
+	background-color: #33588E;
+	border-radius: 20px;
+}
+
+.nav a:active
+{
+	color: white;
+	background-color: #FF66FF;
+}
+
+/* -----------------------
+Single styles
+------------------------*/
+
+.img-responsive { max-width: 100%; }
+
+.btn
+{
+	color: #fff !important;
+	background-color: royalblue;
+	border-color: #222;
+	display: inline-block;
+	padding: .5em 1em;
+	margin-bottom: 0;
+	font-weight: 400;
+	line-height: 1.2;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: .2em;
+	text-decoration: none;
+}
+
+.btn:hover
+{
+	color: #fff !important;
+	background-color: green;
+}
+
+.btn:focus
+{
+	color: #fff !important;
+	background-color: black;
+}
+
+.btn:active
+{
+	color: #fff !important;
+	background-color: red;
+}
+
+.table
+{
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+.list-unstyled
+{
+	padding-left: 0;
+	list-style: none;
+}
+
+.list-inline
+{
+	padding-left: 0;
+	margin-left: -5px;
+	list-style: none;
+}
+
+.list-inline > li
+{
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+
+
+/* -----------------------
+icons
+------------------------*/
+
+/* -----------------------
+Wide styles
+------------------------*/
+
+@media (min-width: 42em)
+{
+	.header { padding: 1.5em 3em; }
+	.nav-bar { padding: 1em 3em; }
+	.content { padding: 2em 3em; }
+	.footer { padding: 2em 3em; }
+	
+	.nav li
+	{
+		display: inline;
+		margin: 0 1em 0 0;
+	}
+	
+	.nav a
+	{
+		display: inline;
+		padding: 0;
+		border-bottom: 0;
+	}
+}
+
+
+
+
+
